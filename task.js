@@ -25,8 +25,9 @@ function advancedFilter(arr) {
   return resultArr; // array
 }
 function devNum(value) {
-  if (value % 3 === 0)
+  if (value % 3 === 0) {
     return value;
+  }
 }
 
 function isBigEnough(value) {
